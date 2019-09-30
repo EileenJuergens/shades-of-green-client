@@ -9,7 +9,7 @@ import { SearchBar } from './Search-bar-container';
 import { Filters } from '../components/Filters';
 import { getVotedPlaces } from '../actions'
 
-
+// dummy change
 const Dashboard = ({ places, sendPlacesToRedux, votedPlaces, sendVotedPlacesToRedux }) => {
   //✅ handling with the location of the user:
   const currentLocation = { // this is the default location (BCN🔆 is lat: 41.390205, lng: 2.154007)
